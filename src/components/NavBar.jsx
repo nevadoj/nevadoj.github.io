@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function NavBar() {
-  
+
   const links = [
     {
       id: 1,
@@ -33,12 +33,14 @@ export default function NavBar() {
     // </div>
 
     <div className='flex justify-end text-2xl text-white bg-[#495046]'>
-      <ul className="hidden md:flex pr-72 my-10"> 
-        {links.map(({ id, link }) => (
-          <li key={id} className="px-4 cursor-pointer font-light">
-            {link}
-          </li>
-        ))}
+      <ul className="my-10 pr-64">
+        <div className="hidden 2xl:flex">
+          {links.map(({ id, link }) => (
+            <li key={id} className="px-4 cursor-pointer font-light">
+              {link}
+            </li>
+          ))}  
+        </div> 
       </ul>
     </div>
   )
