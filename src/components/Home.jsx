@@ -7,8 +7,8 @@ export default function Home() {
         <div className="pb-96">
              <div className='font-light max-w-4xl mx-24'>
               <h2 className="text-4xl font-medium py-20">Hello 👋</h2>
-                <p className="text-4xl">My name is <span className="font-medium">Joseph</span>.</p>
-                <p className='text-4xl'>I'm a <span className="font-medium"> Computer Science</span> undergraduate student at <span className="font-medium">Simon Fraser University</span>.</p>
+              <p className="text-4xl">My name is <span className="font-medium">Joseph</span>.</p>
+              <p className='text-4xl'>I'm a <span className="font-medium"> Computer Science</span> undergraduate student at <span className="font-medium">Simon Fraser University</span>.</p>
              </div>
         </div>
       </div>
