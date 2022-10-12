@@ -1,7 +1,7 @@
 import React from 'react'
-import Email from "../Email.svg"
-import Github from "../Github.svg"
-import Linkedin from "../Linkedin.svg"
+import Email from "../assets/images/Email.svg"
+import Github from "../assets/images/Github.svg"
+import Linkedin from "../assets/images/Linkedin.svg"
 
 export default function Social() {
   const socials = [

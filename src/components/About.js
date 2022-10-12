@@ -1,7 +1,7 @@
 import React from 'react'
-import Email from "../Email.svg"
-import Github from "../Github.svg"
-import Linkedin from "../Linkedin.svg"
+import Email from "../assets/images/Email.svg"
+import Github from "../assets/images/Github.svg"
+import Linkedin from "../assets/images/Linkedin.svg"
 
 export default function About() {
     const socials = [
@@ -28,7 +28,7 @@ export default function About() {
 
   return (
     <div name="about" className="w-full h-screen bg-[#495046] text-white sm:py-2">
-        <div className="max-w-screen-lg mx-auto">
+        <div className="max-w-screen-lg mx-auto bg-[#495046]">
             <div className="font-light max-w-4xl mx-24">
                 <p className="text-4xl py-10">
                     I'm passionate about all things technology. I'm also interested in design and how it evokes emotion. Currently exploring <span className="font-medium">iOS development</span>.
