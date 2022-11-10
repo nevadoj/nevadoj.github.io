@@ -27,11 +27,11 @@ export default function About() {
 
 
   return (
-    <div name="about" className="w-full h-screen bg-[#495046] text-white sm:py-2">
-        <div className="max-w-screen-lg mx-auto bg-[#495046]">
-            <div className="font-light max-w-4xl mx-24">
+    <div name="about" className="w-full h-screen bg-altbg text-white sm:py-2">
+        <div className="max-w-screen-lg mx-auto bg-altbg">
+            <div className="font-light max-w-4xl mx-24 pt-24">
                 <p className="text-4xl py-10">
-                    I'm passionate about all things technology. I'm also interested in design and how it evokes emotion. Currently exploring <span className="font-medium">iOS development</span>.
+                    Aspiring developer. Interested in design and how it evokes emotion. Currently exploring <span className="font-medium">iOS development</span>.
                 </p>
 
                 <p className="text-4xl py-10">
@@ -39,7 +39,7 @@ export default function About() {
                 </p>
             </div>
 
-            <div className="max-w-screen-lg mx-auto bg-[#495046] py-24">
+            <div className="max-w-screen-lg mx-auto bg-altbg py-24">
                 <div className="max-w-4xl mx-24 flex justify-between flex-wrap">
                     <div>
                         <div className="-translate-x-4">
