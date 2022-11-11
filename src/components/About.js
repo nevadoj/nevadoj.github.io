@@ -35,7 +35,7 @@ export default function About() {
                 </p>
 
                 <p className="text-4xl py-10">
-                    Outside of programming, I enjoy playing guitar, listening to music and building mechanical keyboards.
+                    Outside of programming, I like playing guitar, listening to music and messing around with mechanical keyboards.
                 </p>
             </div>
 
