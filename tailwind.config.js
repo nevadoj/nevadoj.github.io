@@ -54,7 +54,7 @@ module.exports = {
     animation: {
         'fade-in-down': 'fade-in-down 0.5s ease-out',
         'fade-out-down': 'fade-out-down 0.5s ease-out',
-        'fade-in-up': 'fade-in-up 1.5s ease-out',
+        'fade-in-up': 'fade-in-up 1.0s ease-out',
         'fade-out-up': 'fade-out-up 0.5s ease-out'
     },
     },
