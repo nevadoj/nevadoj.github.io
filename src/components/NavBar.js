@@ -16,7 +16,7 @@ export default function NavBar() {
 
 
   return (
-    <div className='flex justify-end text-2xl text-white bg-altbg'>
+    <div className='flex justify-end text-2xl text-white bg-altbg overflow-hidden'>
       <ul className="my-10 pr-64">
         <div className="hidden 2xl:flex">
           {links.map(({ id, link }) => (
