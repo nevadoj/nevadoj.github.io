@@ -27,7 +27,7 @@ export default function About() {
 
 
   return (
-    <div name="about" className="w-full h-screen bg-altbg text-white sm:py-2 overflow-hidden">
+    <div name="about" className="w-full h-screen bg-altbg text-white sm:py-2">
         <div className="max-w-screen-lg mx-auto bg-altbg">
             <div className="font-light max-w-4xl mx-24 pt-24">
                 <p className="text-4xl py-10">

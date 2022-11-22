@@ -26,7 +26,7 @@ export default function Social() {
   ]
 
   return (
-    <div name="social" className="h-screen w-full bg-altbg text-white overflow-hidden py-96 sm:py-2">
+    <div name="social" className="h-screen w-full bg-altbg text-white py-96 sm:py-2">
       <div className="max-w-screen-lg mx-auto">
         <div className="max-w-4xl mx-24 flex justify-between flex-wrap">
           <div>
