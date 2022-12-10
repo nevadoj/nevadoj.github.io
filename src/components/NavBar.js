@@ -18,7 +18,7 @@ export default function NavBar() {
   return (
     <div className='flex justify-end text-2xl text-white bg-altbg'>
       <ul className="my-10 pr-64">
-        <div className="hidden 2xl:flex">
+        <div className="hidden xl:flex">
           {links.map(({ id, link }) => (
             <li key={id} className="px-4 cursor-pointer font-light">
 
