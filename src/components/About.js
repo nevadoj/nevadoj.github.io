@@ -39,7 +39,7 @@ export default function About() {
                 </p>
             </div>
 
-            <div className="max-w-screen-lg mx-auto bg-altbg pt-20">
+            <div className="max-w-screen-lg mx-auto bg-altbg pt-24">
                 <div className="max-w-4xl mx-24 flex justify-between flex-wrap">
                     <div>
                         <div className="-translate-x-4">
