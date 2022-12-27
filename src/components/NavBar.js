@@ -4,10 +4,10 @@ import { Link } from 'react-scroll'
 export default function NavBar() {
 
   const links = [
-    // {
-    //   id: 1,
-    //   link: 'projects'
-    // },
+    {
+      id: 1,
+      link: 'projects'
+    },
     {
       id: 2,
       link: 'about'

@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         'mainbg': '#495046',
         'altbg': '#2E3342',
+        'altbg-dark': '#252933',
       },
       keyframes: {
         'fade-in-down': {
