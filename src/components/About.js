@@ -49,8 +49,8 @@ export default function About() {
                             </svg>
                         </div>
                         
-                        <h2 className="text-4xl pt-6">Vancouver,</h2>
-                        <h2 className="text-4xl pt-2">Canada</h2>
+                        <h2 className="text-4xl font-light pt-6">Vancouver,</h2>
+                        <h2 className="text-4xl font-light pt-2">Canada</h2>
                     </div>
 
                     <div className="flex justify-evenly pt-8 pl-2 sm:pt-24">
