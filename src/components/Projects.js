@@ -13,7 +13,7 @@ export default function Projects() {
                     <p className="pr-4">Swift</p>
                     <p className="pr-4">SwiftUI</p>
                 </div>
-                <p className='text-3xl py-8 w-64'>Simple iOS app to create workout routines and track progress.</p>
+                <p className='text-3xl py-8 w-64'>Simple iOS app to create workout routines and track fitness progress.</p>
               </div>
 
               <a href='https://github.com/' target="blank" rel="noreferrer">
