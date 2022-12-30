@@ -17,7 +17,7 @@ export default function Projects() {
               </div>
 
               <a href='https://github.com/' target="blank" rel="noreferrer">
-                <div class="box-border h-[30rem] w-80 rounded-[20px] bg-altbg-dark grid place-content-center 2xl:h-[34rem]">
+                <div class="hidden sm:grid place-content-center box-border h-[30rem] 2xl:h-[34rem] w-80 rounded-[20px] bg-altbg-dark">
                   <p className='font-mono'>wip</p>
                 </div>
               </a>
