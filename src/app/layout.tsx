@@ -9,9 +9,11 @@ export const metadata: Metadata = {
 export default function Main({ children, }: { children: React.ReactNode}) {
   return (
     <html lang="en">
-      <main className='flex flex-col gap-96 text-text-regular items-center px-20 py-20'>
-        {children}
-      </main>
+      <body>
+        <main className='flex flex-col gap-96 text-text-regular px-20 py-20'>
+            {children}
+        </main>
+      </body>
     </html>
   )
 }

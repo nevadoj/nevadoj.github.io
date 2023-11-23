@@ -1,11 +1,11 @@
-import Icon from "../../components/content/Icon"
+import Hero from "./components/content/Hero"
+import Projects from "./components/content/Projects"
 
 const HomePage = () => {
   return (
     <>
-      <Icon/>
-      <div>hi</div>
-      <div>hello</div>
+      <Hero/>
+      <Projects/>
     </>
   )
 }
