@@ -1,6 +1,12 @@
+import Icon from "../../components/content/Icon"
+
 const HomePage = () => {
   return (
-    <div>page</div>
+    <>
+      <Icon/>
+      <div>hi</div>
+      <div>hello</div>
+    </>
   )
 }
 
