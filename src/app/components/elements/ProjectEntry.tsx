@@ -3,14 +3,14 @@
 export default function ProjectEntry(){
     return (
         <>
-            <div className="flex flex-col items-center w-full pt-12">
+            <div className="flex flex-col items-center w-full pt-16">
                 <img src="/assets/images/placeholder.png" alt="project placeholder picture" className="rounded-[30px] w-36 h-36"/>
 
                 <div className="flex flex-col w-full pt-8">
                     <div className="flex flex-row">
-                        <a href="https://github.com" target="_blank" rel="noreferrer" className="flex flex-row">
-                            <p className="pl-4 pr-2 text-text-dark text-xl hover:pointer hover:underline">Spotter</p>
-                            <img src="/assets/images/Arrow.svg" alt="external link" className="pt-1"/>
+                        <a href="https://github.com" target="_blank" rel="noreferrer" className="flex flex-row group">
+                            <p className="pl-4 pr-2 text-text-dark text-xl transition ease-in-out group-hover:pointer group-hover:underline">Spotter</p>
+                            <img src="/assets/images/Arrow.svg" alt="external link" className="pt-1 opacity-0 transition ease-in-out group-hover:opacity-100"/>
                         </a>
                     </div>
 
