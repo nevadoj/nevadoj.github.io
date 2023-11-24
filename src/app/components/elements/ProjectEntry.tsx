@@ -7,7 +7,12 @@ export default function ProjectEntry(){
                 <img src="/assets/images/placeholder.png" alt="project placeholder picture" className="rounded-[30px] w-36 h-36"/>
 
                 <div className="flex flex-col w-full pt-8">
-                    <p className="px-4 text-text-dark text-xl">Spotter</p>
+                    <div className="flex flex-row">
+                        <a href="https://github.com" target="_blank" rel="noreferrer" className="flex flex-row">
+                            <p className="pl-4 pr-2 text-text-dark text-xl hover:pointer hover:underline">Spotter</p>
+                            <img src="/assets/images/Arrow.svg" alt="external link" className="pt-1"/>
+                        </a>
+                    </div>
 
                     <div className="flex flex-row px-4 pt-1 text-lg">
                         <p className="pr-2">Swift</p>
