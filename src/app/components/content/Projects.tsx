@@ -7,7 +7,7 @@ export default function Projects(){
                 <div className="flex flex-col justify-center items-center w-full min-w-5/6">
                     <p className="text-2xl sm:px-20">Projects</p>
 
-                    <ProjectEntry />
+                    <ProjectEntry title="" description="" source="" languages={["swift"]}/>
                 </div>
             </div>
         </>

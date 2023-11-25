@@ -1,6 +1,14 @@
 // TODO: handle props to display multiple projects
+import ProjectHeading from "./ProjectHeading";
 
-export default function ProjectEntry(){
+interface ProjectProps{
+    title: string;
+    description: string;
+    source?: string
+    languages: [string];
+}
+
+const ProjectEntry: React.FC<ProjectProps> = ({title, description, source}) => {
     return (
         <>
             <div className="flex flex-col items-center w-full pt-16">
@@ -8,10 +16,16 @@ export default function ProjectEntry(){
 
                 <div className="flex flex-col w-full pt-8">
                     <div className="flex flex-row">
-                        <a href="https://github.com" target="_blank" rel="noreferrer" className="flex flex-row group">
-                            <p className="pl-4 pr-2 text-text-dark text-xl transition ease-in-out group-hover:pointer group-hover:underline">Spotter</p>
-                            <img src="/assets/images/Arrow.svg" alt="external link" className="pt-1 opacity-0 transition ease-in-out group-hover:opacity-100"/>
-                        </a>
+                        {
+                            source ? (
+                                <a href="https://github.com" target="_blank" rel="noreferrer" className="flex flex-row group">
+                                    <ProjectHeading title={"Spotter"}/>
+                                </a>
+                            )
+                            : (
+                                <ProjectHeading title={"Sampo"}/>
+                            )
+                        }
                     </div>
 
                     <div className="flex flex-row px-4 pt-1 text-lg">
@@ -25,3 +39,5 @@ export default function ProjectEntry(){
         </>
     )
 }
+
+export default ProjectEntry
