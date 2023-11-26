@@ -2,7 +2,7 @@ export default function Hero(){
   return (
     <>
       <div className="flex flex-col items-center sm:items-start w-full">
-        <div className="flex justify-center lg:justify-start w-full">
+        <div className="flex justify-center lg:justify-start w-11/12">
           <img src="/assets/images/icon.png" alt="website icon" width={60} height={60} className="mx-12 hover:cursor-pointer"/>
         </div>
 
