@@ -15,9 +15,17 @@ export default function Explore(){
                     </div>
 
                     <div className="flex flex-row pb-8 pt-1">
-                        <img src="/assets/images/Mail.svg" alt="email" className="pr-4 hover:cursor-pointer"/>
-                        <img src="/assets/images/Linkedin.svg" alt="linkedin" className="pr-4 hover:cursor-pointer" />
-                        <img src="/assets/images/Github.svg" alt="github" className="hover:cursor-pointer" />
+                        <a href="mailto:josephnevado12@gmail.com" target="_blank" rel="noreferrer">
+                            <img src="/assets/images/Mail.svg" alt="email" className="pr-4 hover:cursor-pointer"/>
+                        </a>
+
+                        <a href="https://linkedin.com/in/joseph-nevado" target="_blank" rel="noreferrer">
+                            <img src="/assets/images/Linkedin.svg" alt="linkedin" className="pr-4 hover:cursor-pointer" />
+                        </a>
+
+                        <a href="https://github.com/nevadoj" target="_blank" rel="noreferrer">
+                            <img src="/assets/images/Github.svg" alt="github" className="hover:cursor-pointer" />
+                        </a>
                     </div>
                 </div>
             </Container>
