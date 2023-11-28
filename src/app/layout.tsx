@@ -10,7 +10,7 @@ export default function Main({ children, }: { children: React.ReactNode}) {
   return (
     <html lang="en">
       <body>
-        <main className='flex flex-col gap-52 lg:gap-64 text-text-regular px-20 py-20'>
+        <main className='flex flex-col gap-36 lg:gap-64 text-text-regular px-20 py-20'>
             {children}
         </main>
       </body>
