@@ -15,12 +15,12 @@ const ProjectEntry: React.FC<ProjectProps> = ({title, description, source, langu
                 {
                     source ? (
                         <a href={source} target="_blank" rel="noreferrer" className="flex flex-row w-full group">
-                            <p className="text-text-dark text-xl transition ease-in-out group-hover:pointer group-hover:underline">{title}</p>
+                            <p className="text-text-dark text-lg transition ease-in-out group-hover:pointer group-hover:underline">{title}</p>
                             <img src="/assets/images/Arrow.svg" alt="external link" className="pt-1 pl-1 opacity-0 transition ease-in-out group-hover:opacity-100"/>
                         </a>
                     )
                     : (
-                        <p className="text-text-dark text-xl w-full">{title}</p>
+                        <p className="text-text-dark text-lg w-full">{title}</p>
                     )
                 }
                 <div className="flex flex-row w-full pt-2">
@@ -30,7 +30,7 @@ const ProjectEntry: React.FC<ProjectProps> = ({title, description, source, langu
 
             <div className="flex flex-col justify-start items-start lg:pt-8 lg:pb-16">
                 <p className="pt-1">{description}</p>
-                <img src={preview ? preview : "/assets/images/placeholder.png"} alt="project placeholder picture" width={1920} height={1080} className="flex object-cover pt-6 lg:pt-3"/>
+                <img src={preview ? preview : "/assets/images/placeholder.png"} alt="project placeholder picture" className="flex object-cover pt-6 max-w-md max-h-m lg:pt-3 lg:max-w-xl lg:max-h-xl"/>
             </div>
         </Container>
     )

@@ -9,7 +9,7 @@ export default function Explore(){
                 </div>
 
                 <div className="flex flex-col items-center lg:items-start">
-                    <div className="flex flex-col items-center lg:items-start pb-4 pt-1">
+                    <div className="flex flex-col items-center lg:items-start pb-4">
                         <img src="/assets/images/Loc.svg" alt="location" className="lg:-translate-x-2"/>
                         <p className="text-text-dark pt-2">Vancouver, BC</p>
                     </div>
