@@ -8,7 +8,7 @@ const HomePage = () => {
     <>
       {/* <Hero/> */}
       <Sample/>
-      <SampleProjects title="Spotter" description="Simple iOS app to create fitness routines and track progress." source="asdf" languages={["Swift", "SwiftUI"]} preview="/assets/images/preview.png"/>
+      <SampleProjects title="Spotter" description="Simple iOS app to create fitness routines and track progress." source="asdf" languages={["Swift", "SwiftUI"]} preview=""/>
       {/* <Sample/> */}
       {/* <Projects/> */}
     </>
