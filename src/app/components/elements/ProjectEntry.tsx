@@ -23,14 +23,14 @@ const ProjectEntry: React.FC<ProjectProps> = ({title, description, source, langu
                         <p className="text-text-dark text-xl w-full">{title}</p>
                     )
                 }
-                <div className="flex flex-row w-full pt-1">
+                <div className="flex flex-row w-full pt-2">
                     {languages.map((language, idx) => <p className="pr-2 last-of-type:pr-0" key={idx}>{language}</p>)}
                 </div>
             </div>
 
             <div className="flex flex-col justify-start items-start lg:pt-12 lg:pb-12">
                 <p className="pt-1">{description}</p>
-                <img src={preview ? preview : "/assets/images/placeholder.png"} alt="project placeholder picture" width={700} height={500} className="flex object-cover pt-6 lg:pt-8"/>
+                <img src={preview ? preview : "/assets/images/placeholder.png"} alt="project placeholder picture" width={640} height={480} className="flex object-cover pt-6 lg:pt-3"/>
             </div>
         </Container>
     )
