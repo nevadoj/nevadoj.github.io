@@ -1,5 +1,3 @@
-import ProjectHeading from "./ProjectHeading";
-
 interface ProjectProps{
     title: string;
     description: string;
@@ -18,11 +16,12 @@ const ProjectEntry: React.FC<ProjectProps> = ({title, description, source, langu
                             {
                                 source ? (
                                     <a href={source} target="_blank" rel="noreferrer" className="flex flex-row group">
-                                        <ProjectHeading title={title}/>
+                                        <p className="text-text-dark text-xl transition ease-in-out group-hover:pointer group-hover:underline">{title}</p>
+                                        <img src="/assets/images/Arrow.svg" alt="external link" className="pt-1 opacity-0 transition ease-in-out group-hover:opacity-100"/>
                                     </a>
                                 )
                                 : (
-                                    <ProjectHeading title={title}/>
+                                    <p className="text-text-dark text-xl transition ease-in-out group-hover:pointer group-hover:underline">{title}</p>
                                     )
                                 }
                         </div>
