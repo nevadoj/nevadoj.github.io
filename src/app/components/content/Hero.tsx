@@ -6,11 +6,11 @@ export default function Hero(){
     <>
       <Container>
           <div className="flex justify-center items-start lg:justify-start">
-              <p className="text-2xl">Hello 👋</p>
+              <p className="text-2xl">hello 👋</p>
           </div>
           <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start">
               <p className="pb-2 text-center lg:text-left lg:pt-0">My name is <span className="text-text-dark">Joseph</span>.</p>
-              <p className="text-center lg:text-left">I'm a <span className="text-text-dark">Computer Science</span> undergraduate student at <span className="text-text-dark">Simon Fraser University</span>.</p>
+              <p className="text-center lg:text-left">I am a recent <span className="text-text-dark">Computer Science</span> graduate from <span className="text-text-dark">Simon Fraser University</span> seeking new grad software engineering opportunities.</p>
           </div>
       </Container>
     </>

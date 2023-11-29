@@ -5,7 +5,7 @@ export default function About(){
         <>
             <Container>
                 <div className="flex justify-center items-start lg:justify-start">
-                <p className="text-2xl">About</p>
+                <p className="text-2xl">about</p>
                 </div>
                 
                 <div className="flex flex-col justify-start items-start">

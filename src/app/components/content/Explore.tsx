@@ -5,13 +5,16 @@ export default function Explore(){
         <>
             <Container>
                 <div className="flex flex-col items-center lg:items-start lg:justify-start">
-                    <p className="text-2xl">Explore</p>
+                    <p className="text-2xl">explore</p>
                 </div>
 
                 <div className="flex flex-col items-center lg:items-start">
                     <div className="flex flex-col items-center lg:items-start pb-4">
                         <img src="/assets/images/Loc.svg" alt="location" className="lg:-translate-x-2"/>
-                        <p className="text-text-dark pt-2">Vancouver, BC</p>
+                        <p className="text-text-dark pt-2">vancouver, bc</p>
+                        <a href="/assets/res.pdf" target="_blank">
+                            <p className="text-text-dark underline hover:cursor-pointer pt-2">resume</p>
+                        </a>
                     </div>
 
                     <div className="flex flex-row pb-8 pt-1">
