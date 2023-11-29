@@ -6,11 +6,6 @@ interface PageProps{
 }
 
 const ProjectPage: React.FC<PageProps> = ({ params }) => {
-  const projects = process.env.PUBLIC_PROJECTS.split(", ");
-  if(!projects.includes(params.title)){
-    notFound();
-  }
-
   return (
     <Container>
       <div>
@@ -21,3 +16,10 @@ const ProjectPage: React.FC<PageProps> = ({ params }) => {
 }
 
 export default ProjectPage
+
+export async function generateStaticParams(){
+  const projects = process.env.PUBLIC_PROJECTS.split(", ");
+  const params = projects.map((title) => ({ params: { title } }));
+
+  return params;
+}

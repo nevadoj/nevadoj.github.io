@@ -1,4 +1,5 @@
 import Container from "../layout/Container";
+import Image from "next/image";
 
 interface ProjectProps{
     title: string;
@@ -13,9 +14,9 @@ const ProjectEntry: React.FC<ProjectProps> = ({title, description, source, langu
             <div className="flex flex-col justify-center items-center max-w-xs lg:justify-start lg:items-start pt-8 lg:pb-12">
                 {
                     source ? (
-                        <a href={source} rel="noreferrer" className="flex flex-row w-full group">
+                        <a href={source} target="_blank" rel="noreferrer" className="flex flex-row w-full group">
                             <p className="text-text-dark text-lg transition ease-in-out group-hover:pointer group-hover:underline">{title}</p>
-                            <img src="/assets/images/Arrow.svg" alt="external link" className="pt-1 pl-1 opacity-0 transition ease-in-out group-hover:opacity-100"/>
+                            <Image src="/assets/images/Arrow.svg" alt="external link" className="pt-1 pl-1 opacity-0 transition ease-in-out group-hover:opacity-100"/>
                         </a>
                     )
                     : (
