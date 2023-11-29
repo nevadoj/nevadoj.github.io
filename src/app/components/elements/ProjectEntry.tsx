@@ -5,10 +5,9 @@ interface ProjectProps{
     description: string;
     source?: string
     languages: string[];
-    preview?: string
 }
 
-const ProjectEntry: React.FC<ProjectProps> = ({title, description, source, languages, preview}) => {
+const ProjectEntry: React.FC<ProjectProps> = ({title, description, source, languages}) => {
     return (
         <Container>
             <div className="flex flex-col justify-center items-center max-w-xs lg:justify-start lg:items-start pt-8 lg:pb-12">
@@ -30,7 +29,6 @@ const ProjectEntry: React.FC<ProjectProps> = ({title, description, source, langu
 
             <div className="flex flex-col justify-start items-start lg:pt-8 lg:pb-12">
                 <p className="pt-1">{description}</p>
-                {/* <img src={preview ? preview : "/assets/images/placeholder.png"} alt="project placeholder picture" className="flex object-cover pt-6 max-w-md max-h-m lg:pt-3 lg:max-w-xl lg:max-h-xl"/> */}
             </div>
         </Container>
     )
