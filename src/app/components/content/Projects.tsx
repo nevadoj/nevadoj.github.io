@@ -11,9 +11,9 @@ export default function Projects(){
                     </div>
                 </Container>
 
-                <ProjectEntry title="metap3" description="Web app that lets you edit the meta (ID3) tags of audio files." source="metap3" languages={["react", "typescript"]}/>
+                <ProjectEntry title="metap3" description="Customize the ID3 (meta) tags of audio files." source="metap3" languages={["react", "typescript"]}/>
                 <ProjectEntry title="b-line" description="Transit app for bus routes in Metro Vancouver." source="https://github.com/nevadoj/B-Line" languages={["swift", "swiftui"]}/>
-                <ProjectEntry title="spotter" description="Simple iOS app to create workout routines and track progress." source="https://github.com/nevadoj/SpotterApp" languages={["swift", "swiftui"]}/>
+                <ProjectEntry title="spotter" description="Create workout routines & track your progress with historical charts." source="https://github.com/nevadoj/SpotterApp" languages={["swift", "swiftui"]}/>
             </div>
         </>
     )
