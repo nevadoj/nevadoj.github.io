@@ -38,33 +38,29 @@ p{
 }
 
 h1{
-    font-size: 2.00rem;
-    font-weight: 550;
-}
-
-.container {
-  max-width: 1024px;
-  margin: auto;
+    font-size: 1.75rem;
+    font-weight: 500;
 }
 
 .content {
-  max-width: var(--content-container-max-width);
-  margin: auto;
-  padding-left: 5rem;
-  padding-right: 5rem;
+    display: flex;
+    width: 100%;
+    max-width: 48rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
 }
 
 .header{
     display: none;
 }
 
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 640px){    
     .header {
         display: flex;
         justify-content: end;
-        padding-top: 2rem;
-        padding-right: 1rem;
-        max-width: 1280px;
+        margin-top: 2rem;
+        margin-right: 6rem;
     }
     
     .header nav ul{
@@ -76,12 +72,8 @@ h1{
     
     .header nav ul li a{
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
-}
-
-#hero.content{
-    padding-top: 4rem;
 }
 
 .hero--title{
@@ -89,7 +81,7 @@ h1{
 }
 
 .info{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .info span{
@@ -144,47 +136,14 @@ h1{
     padding-bottom: 12rem;
 }
 
-
-#about.info{
-    padding-top: 1.5rem;
-}
-
 #about.info a {
     text-decoration: underline;
 }
 
 #location.info{
-    font-weight: 400;
+    font-weight: 500;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
-}
-
-#about.content{
-    padding-bottom: 0.5rem;
-}
-
-.about--visuals{
-    display: flex;
-    flex-direction: column;
-    align-items: first baseline;
-    margin-top: 20rem;
-}
-
-.about--location{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.about--icons{
-    display: flex;
-    align-items: first baseline;
-    padding-top: 2rem;
-    transform: translateX(-1.25rem);
-}
-
-.about--icons a{
-    padding-left: 1rem;
 }
 
 .location--pin{
@@ -192,9 +151,14 @@ h1{
     padding-bottom: 1rem;
 }
 
+.about--icons {
+    padding-top: 1rem;
+}
+
 @media only screen and (min-width: 640px){
     .about--visuals{
         display: flex;
+        width: 100%;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -202,5 +166,20 @@ h1{
 
     .about--icons{
         display: flex;
+    }
+}
+
+#vis.info {
+    display: block;
+    padding-top: 24px;
+}
+
+#vis.info a {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 640px) {
+    #vis.info {
+        display: none;
     }
 }
