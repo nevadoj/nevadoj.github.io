@@ -183,3 +183,25 @@ h1{
         display: none;
     }
 }
+
+#chart {
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+rect {
+    fill: steelblue;
+    transition: height 0.3s, y 0.3s; /* smooth animation */
+}
+
+text {
+    font-size: 12px;
+    fill: #333;
+    text-anchor: middle;
+}
+
+#visualization-chart {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
