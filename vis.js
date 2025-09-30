@@ -51,3 +51,17 @@ typingData.forEach((value, i) => {
     label.id = "chart-x";
     chartLabelsX.appendChild(label);
 });
+
+
+const chartLabelsY = document.getElementById("chart-label-y");
+for(let i = 0; i < 5; i++) {
+    const label = document.createElement("p");
+    label.textContent = (i * 50); // labels 1–20
+    label.style.width = (barWidth) + "px";
+    label.style.display = "inline-block";
+    label.style.textAlign = "center";
+    label.style.fontSize = '12px';
+    label.style.paddingTop = '8px';
+    label.id = "chart-y";
+    chartLabelsY.appendChild(label);
+}

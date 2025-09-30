@@ -217,3 +217,16 @@ text {
     display: none;
     white-space: pre-line;
 }
+
+#chart-label-y {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#chart-label-x {
+    margin-left: 3.2rem;
+}
+
+.chart-container {
+    display: flex;
+}
