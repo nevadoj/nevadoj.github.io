@@ -230,3 +230,7 @@ text {
 .chart-container {
     display: flex;
 }
+
+#logo {
+    padding: 4rem;
+}
