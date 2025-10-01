@@ -143,12 +143,16 @@ h1{
 #location.info{
     font-weight: 500;
     padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
+}
+
+#visitor.info {
+    color: lightgray;
+    font-size: 0.9rem;
 }
 
 .location--pin{
     transform: translateX(-1rem);
-    padding-bottom: 1rem;
+    margin-left: 0.5rem;
 }
 
 .about--icons {
