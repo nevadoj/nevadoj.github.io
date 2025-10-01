@@ -136,7 +136,7 @@ h1{
     padding-bottom: 12rem;
 }
 
-#about.info a {
+.info a {
     text-decoration: underline;
 }
 
