@@ -1,0 +1,1 @@
+This is a portfolio website for IAT 355. It was built with JavaScript, HTML and CSS. You can navigate around by scrolling and clicking on the header options, or simply follow the highlighted links on mobile.
