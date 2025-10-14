@@ -207,6 +207,9 @@ text {
 #visualization-chart {
     display: flex;
     flex-direction: column;
+}
+
+.chart-container {
     min-width: 1000px;
     overflow-x: auto;
 }
@@ -229,7 +232,7 @@ text {
 }
 
 #chart-label-x {
-    margin-left: 3.2rem;
+    margin-left: 3.2rem;    
     min-width: 1000px;
     overflow-x: auto;
 }
@@ -260,11 +263,6 @@ text {
     overflow-x: auto;
 }
 
-#as3-text {
-    
-}
-
 #vis1, #vis2, #vis3, #vis4, #vis5 {
-    min-width: 1000px;
-    overflow-x: auto;
+    flex: 1
 }
