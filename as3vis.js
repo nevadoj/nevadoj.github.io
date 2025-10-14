@@ -56,7 +56,7 @@ fetchData().then(async (data) => {
         )
         .toSpec();
 
-        const vis1 = vl.layer(line1, point1, bar1).height(400).title("Global Sales by Genre and Platform").toSpec();
+        const vis1 = vl.layer(line1, point1, bar1).height(400).width('container').title("Global Sales by Genre and Platform").toSpec();
         render("#as3-vis1", vis1);
 
 
@@ -67,7 +67,7 @@ fetchData().then(async (data) => {
             vl.y().fieldQ("Global_Sales").aggregate("sum").title("Global Sales (millions)"),
             vl.color().fieldN("Platform").scale({scheme: "tableau20"})
         )
-        .width(1000)
+        .width('container')
         .height(400)
         .title("Sales Over Time by Platform")
         .toSpec();
@@ -81,7 +81,7 @@ fetchData().then(async (data) => {
             vl.y().fieldQ("Global_Sales").aggregate("sum").title("Global Sales (millions)"),
             vl.color().fieldN("Genre").scale({scheme: "tableau20"})
         )
-        .width(1000)
+        .width('container')
         .height(400)
         .title("Sales Over Time by Genre")
         .toSpec();
@@ -96,6 +96,7 @@ fetchData().then(async (data) => {
             vl.xOffset().fieldN("sales_region") 
         )
         .title("Regional Sales vs. Platform")
+        .width('container')
         .toSpec();
     render("#as3-vis4", vis4);
 

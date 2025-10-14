@@ -247,3 +247,7 @@ text {
     padding-left: 4rem;
     padding-right: 4rem;
 }
+
+#as3-container {
+    width: 100%;
+}
