@@ -207,7 +207,6 @@ text {
 #visualization-chart {
     display: flex;
     flex-direction: column;
-    padding: 4rem;
 }
 
 #infobox {
@@ -237,4 +236,14 @@ text {
 
 #logo {
     padding: 4rem;
+}
+
+.visualization-page{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
