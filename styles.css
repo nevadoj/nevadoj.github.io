@@ -207,6 +207,8 @@ text {
 #visualization-chart {
     display: flex;
     flex-direction: column;
+    min-width: 1000px;
+    overflow-x: auto;
 }
 
 #infobox {
@@ -228,6 +230,8 @@ text {
 
 #chart-label-x {
     margin-left: 3.2rem;
+    min-width: 1000px;
+    overflow-x: auto;
 }
 
 .chart-container {
@@ -248,6 +252,19 @@ text {
     padding-right: 4rem;
 }
 
-#as3-container {
-    width: 100%;
+.as3 {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    min-width: 1000px;
+    overflow-x: auto;
+}
+
+#as3-text {
+    
+}
+
+#vis1, #vis2, #vis3, #vis4, #vis5 {
+    min-width: 1000px;
+    overflow-x: auto;
 }

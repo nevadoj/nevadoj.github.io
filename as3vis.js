@@ -57,7 +57,7 @@ fetchData().then(async (data) => {
         .toSpec();
 
         const vis1 = vl.layer(line1, point1, bar1).height(400).width('container').title("Global Sales by Genre and Platform").toSpec();
-        render("#as3-vis1", vis1);
+        render("#vis1", vis1);
 
 
     const vis2 = vl.markBar({tooltip: true})
@@ -72,7 +72,7 @@ fetchData().then(async (data) => {
         .title("Sales Over Time by Platform")
         .toSpec();
     
-    render("#as3-vis2", vis2);
+    render("#vis2", vis2);
 
     const vis3 = vl.markBar({tooltip: true})
         .data(data.wideData)
@@ -85,7 +85,7 @@ fetchData().then(async (data) => {
         .height(400)
         .title("Sales Over Time by Genre")
         .toSpec();
-    render("#as3-vis3", vis3);
+    render("#vis3", vis3);
 
     const vis4 = vl.markBar({tooltip: true})
         .data(data.longData)
@@ -98,7 +98,7 @@ fetchData().then(async (data) => {
         .title("Regional Sales vs. Platform")
         .width('container')
         .toSpec();
-    render("#as3-vis4", vis4);
+    render("#vis4", vis4);
 
     const fightingGameSaleRegions = vl.markLine({tooltip: true})
         .data(data.longData)
@@ -149,6 +149,6 @@ fetchData().then(async (data) => {
         )
         .title("Analyzing Fighting Games and Publishers of EVO 2025")
         .toSpec();
-    render("#as3-vis5", vis5);
+    render("#vis5", vis5);
 });
 
